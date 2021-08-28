@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  font-family: 'roboto';
+}
+.container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .image {
+    height: 400px;
+    width: 750px;
+  }
+}
+.image {
+  height: 200px;
+  width: 450px;
+}
+.counter {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .counter {
+    font-size: 30px;
+  }
+}
+.para {
+  color: #94a3b8;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+.accelerate-button {
+  margin-top: 30px;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+  border-width: 0;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.brake-button {
+  margin-top: 30px;
+  background-color: transparent;
+  color: #94a3b8;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #94a3b8;
+  cursor: pointer;
+}
